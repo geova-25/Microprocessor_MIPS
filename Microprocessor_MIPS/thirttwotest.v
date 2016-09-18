@@ -4,15 +4,15 @@
 // Company: 
 // Engineer:
 //
-// Create Date:   13:26:02 09/17/2016
-// Design Name:   halfAdder
-// Module Name:   C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/Microprocessor_MIPS/halfAdderTest.v
+// Create Date:   19:33:00 09/17/2016
+// Design Name:   thirtyTwoBitsFullAdder
+// Module Name:   C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/Microprocessor_MIPS/thirttwotest.v
 // Project Name:  Microprocessor_MIPS
 // Target Device:  
 // Tool versions:  
 // Description: 
 //
-// Verilog Test Fixture created by ISE for module: halfAdder
+// Verilog Test Fixture created by ISE for module: thirtyTwoBitsFullAdder
 //
 // Dependencies:
 // 
@@ -22,34 +22,32 @@
 // 
 ////////////////////////////////////////////////////////////////////////////////
 
-module halfAdderTest;
+module thirttwotest;
 
 	// Inputs
-	reg a;
-	reg b;
+	reg c0 = 0;
+	reg [31:0] a;
+	reg [31:0] b;
 
 	// Outputs
-	wire s;
-	wire c;
+	wire [31:0] s;
 
 	// Instantiate the Unit Under Test (UUT)
-	halfAdder uut (
+	thirtyTwoBitsFullAdder uut (
 		.a(a), 
 		.b(b), 
-		.s(s), 
-		.c(c)
+		.s(s)
 	);
 
 	initial begin
-		// Initialize Inputs
 		#100;
-		a = 0;
-		b = 0;
+		a = 647;
+		b = 6100;
 		c0 = 0;
 
 		// Wait 100 ns for global reset to finish
 		#100;		
-		a = 7;
+		a = 6100;
 		b = 7;
 		c0 = 1;
 		
@@ -103,9 +101,7 @@ module halfAdderTest;
 		b = 1;
 		c0 = 0;		
 
-		// Wait 100 ns for global reset to finis		
-        
-		// Add stimulus here	
+		// Add stimulus here
 
 	end
       

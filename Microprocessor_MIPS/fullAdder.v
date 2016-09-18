@@ -22,11 +22,12 @@ module fourbitFullAdder(
     input [3:0] a,
     input [3:0] b,
     input c0,
-	 output wire [3:0] c,
-    output [3:0] s,    
-	 output wire [3:0] p,
-	 output wire [3:0] g
+	 output wire c4,
+    output [3:0] s  
 	 );
+	 wire [3:0] c;
+	 wire [3:0] p;
+	 wire [3:0] g;	 
 	 halfAdder ha1 (
 		.a(a[0]), 
 		.b(b[0]), 
@@ -66,4 +67,5 @@ module fourbitFullAdder(
 	xor(s[1],c[0],p[1]);
 	xor(s[2],c[1],p[2]);
 	xor(s[3],c[2],p[3]);
+	or(c4,c[3],0);
 endmodule
