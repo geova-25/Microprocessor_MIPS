@@ -40,30 +40,30 @@ module thirttwotest;
 	);
 
 	initial begin
-		#100;
-		a = 647;
-		b = 6100;
-		c0 = 0;
+		#100;		
+		a = 32'hffffffff;
+		b = 32'hfffffffff;
+		c0 = 0;	
 
 		// Wait 100 ns for global reset to finish
 		#100;		
-		a = 6100;
-		b = 7;
-		c0 = 1;
+		a = 32'hffffffff;
+		b = 32'hfffffaff;
+		c0 = 1;	
 		
 		#100;		
-		a = 1;
-		b = 1;
+		a = 1092657;
+		b = 1534;
 		c0 = 0;
 
 		#100;		
-		a = 2;
-		b = 1;
+		a = 2526234;
+		b = 1274323;
 		c0 = 0;
 
 		#100;		
-		a = 9;
-		b = 8;
+		a = 90221;
+		b = 8821000;
 		c0 = 0;
 
 		#100;		
@@ -97,8 +97,8 @@ module thirttwotest;
 		c0 = 0;
 		
 		#100;		
-		a = 13;
-		b = 1;
+		a = 345678;
+		b = 987654;
 		c0 = 0;		
 
 		// Add stimulus here

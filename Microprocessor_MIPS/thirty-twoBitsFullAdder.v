@@ -1,22 +1,19 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: TEC
+// Engineer: Eduardo Ortiz Jimenez				
 // 
-// Create Date:    19:05:27 09/17/2016 
-// Design Name: 
-// Module Name:    thirty-twoBitsFullAdder 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
+// Create Date:    19:16:01 09/17/2016 
+// Design Name: 	thirtyTwoBitsFullAdder
+// Module Name:    thirtyTwoBitsFullAdder 
+// Project Name: 	I investigacion
+// Target Devices: Nexys 2
+// Description: 	Sumador de 32 bits para la implementacion de una arquitectura uniciclo MIPS
 //
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
+// Dependencies: fourbitFullAdder.v, halfAdder.v	
+// Delay: 28.952ns
+// Area:  
+// Energy: 81mW
 //////////////////////////////////////////////////////////////////////////////////
 module thirtyTwoBitsFullAdder(
     input [31:0] a,
