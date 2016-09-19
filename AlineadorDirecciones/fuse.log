@@ -1,0 +1,30 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/AlineadorDirecciones/AlineadorDireccionesTest_isim_beh.exe -prj C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/AlineadorDirecciones/AlineadorDireccionesTest_beh.prj work.AlineadorDireccionesTest work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/AlineadorDirecciones/halfAdder.v" into library work
+Analyzing Verilog file "C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/AlineadorDirecciones/carryUnit.v" into library work
+Analyzing Verilog file "C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/AlineadorDirecciones/fullAdder.v" into library work
+Analyzing Verilog file "C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/AlineadorDirecciones/Sumador32bits_V1_ChavarriaOrtegaOrtizVillalobos.v" into library work
+Analyzing Verilog file "C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/AlineadorDirecciones/AlineadorDirecciones_V1_ChavarriaOrtizOrtegaVillalobos.v" into library work
+Analyzing Verilog file "C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/AlineadorDirecciones/AlineadorDireccionesTest.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:188 - "C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/AlineadorDirecciones/fullAdder.v" Line 74: Actual bit length 32 differs from formal bit length 1
+WARNING:HDLCompiler:189 - "C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/AlineadorDirecciones/AlineadorDirecciones_V1_ChavarriaOrtizOrtegaVillalobos.v" Line 52: Size mismatch in connection of port <c0>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/AlineadorDirecciones/Sumador32bits_V1_ChavarriaOrtegaOrtizVillalobos.v" Line 58: Size mismatch in connection of port <c0>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module halfAdder
+Compiling module carryUnit4Bits
+Compiling module fourbitFullAdder
+Compiling module thirtyTwoBitsFullAdder
+Compiling module AlineadorDirecciones_V1_Chavarri...
+Compiling module AlineadorDireccionesTest
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 Verilog Units
+Built simulation executable C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/AlineadorDirecciones/AlineadorDireccionesTest_isim_beh.exe
+Fuse Memory Usage: 27648 KB
+Fuse CPU Usage: 562 ms

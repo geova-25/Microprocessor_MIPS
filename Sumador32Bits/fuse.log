@@ -1,0 +1,25 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/Sumador32Bits/test_isim_beh.exe -prj C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/Sumador32Bits/test_beh.prj test work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/Sumador32Bits/Sumador32Bits.v" into library work
+Analyzing Verilog file "C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/Sumador32Bits/test.v" into library work
+WARNING:HDLCompiler:568 - "C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/Sumador32Bits/test.v" Line 48: Constant value is truncated to fit in <32> bits.
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:188 - "C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/Sumador32Bits/Sumador32Bits.v" Line 181: Actual bit length 32 differs from formal bit length 1
+WARNING:HDLCompiler:189 - "C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/Sumador32Bits/Sumador32Bits.v" Line 69: Size mismatch in connection of port <c0>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module halfAdder
+Compiling module carryUnit4Bits
+Compiling module fourbitFullAdder
+Compiling module thirtyTwoBitsFullAdder
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 6 Verilog Units
+Built simulation executable C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/Sumador32Bits/test_isim_beh.exe
+Fuse Memory Usage: 27636 KB
+Fuse CPU Usage: 546 ms

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/AlineadorDirecciones/AlineadorDireccionesTest_isim_beh.exe" -prj "C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/AlineadorDirecciones/AlineadorDireccionesTest_beh.prj" "work.AlineadorDireccionesTest" "work.glbl" 

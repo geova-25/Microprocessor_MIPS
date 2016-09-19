@@ -5,14 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="568" delta="unknown" >"C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/Microprocessor_MIPS/thirttwotest.v" Line 45: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">32</arg>&gt; bits.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="188" delta="unknown" >"C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/Microprocessor_MIPS/fullAdder.v" Line 70: Actual bit length <arg fmt="%d" index="1">32</arg> differs from formal bit length <arg fmt="%d" index="2">1</arg>
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/Giovanni/Documents/GitHub/Microprocessor_MIPS/Microprocessor_MIPS/thirty-twoBitsFullAdder.v" Line 29: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">c0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
-</msg>
-
 </messages>
 

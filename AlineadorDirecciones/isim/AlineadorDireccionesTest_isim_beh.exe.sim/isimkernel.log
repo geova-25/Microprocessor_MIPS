@@ -1,0 +1,10 @@
+Command line:
+   AlineadorDireccionesTest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51052
+
+Mon Sep 19 01:44:13 2016
+
+
+ Elaboration Time: 0.0625 sec
